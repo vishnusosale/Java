@@ -4,7 +4,6 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		
 		Start s = new Start();
 		s.exec(new SubClass());
 		
@@ -12,7 +11,6 @@ public class Main {
 		SuperClass sup1 = new SubClass(); // Up casting 
 		sup1.disp();
 		System.out.println(sup1.i);
-		
 		
 		SubClass sub1 = (SubClass) sup1; // Down casting
 		/*
