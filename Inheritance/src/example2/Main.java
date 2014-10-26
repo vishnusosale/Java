@@ -4,9 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		A a1 = new A(18);
-		B b1 = new B();
-		C c1 = new C();
+		new A(18);
+		new B();
+		new C();
 
 	}
 
