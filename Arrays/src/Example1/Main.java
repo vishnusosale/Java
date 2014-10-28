@@ -30,6 +30,7 @@ public class Main {
 		System.out.println("printing double type array");
 		for (double d1 : arr2) // using for-each loop
 			System.out.println(d1);
-
+		
+		sc.close(); // closing the scanner
 	}
 }
