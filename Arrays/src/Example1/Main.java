@@ -13,15 +13,15 @@ public class Main {
 		System.out.println("enter array size");
 		int size = sc.nextInt(); // size of the array
 
-		arr1 = new int[size];
+		arr1 = new int[size]; // int type array
 		for (int i = 0; i < arr1.length; i++)
 			arr1[i] = i;
 		System.out.println("printing int type array");
-		for (int i = 0; i < arr1.length; i++)
+		for (int i = 0; i < arr1.length; i++) // using normal for loop
 			System.out.println(arr1[i]);
 
-		double[] arr2;
-		arr2 = new double[size];
+		double[] arr2;	
+		arr2 = new double[size]; // double type array
 		double d = 123.456;
 		for (int i = 0; i < arr2.length; i++) {
 			arr2[i] = d;
